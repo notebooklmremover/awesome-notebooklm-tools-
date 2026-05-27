@@ -27,7 +27,6 @@ This repo collects **free, open-source, privacy-first** tools to solve this prob
 ## Contents
 
 - [Online Tools](#-online-tools)
-- [CLI Tools](#-cli-tools)
 - [Scripts](#-scripts)
 - [Watermark Detection](#-watermark-detection)
 - [Gemini Image Tools](#-gemini-image-tools)
@@ -47,28 +46,6 @@ This repo collects **free, open-source, privacy-first** tools to solve this prob
 | [SlideDeckcleaner.com](https://slidedeckcleaner.com) | PDF | Server-side | ✅ |
 
 > 💡 **[NotebookLM Remover](https://notebooklmremover.org)** is the most comprehensive option — it handles 8 format types and runs entirely in your browser using WebAssembly. Your files never leave your device.
-
-## 🖥️ CLI Tools
-
-### notebooklm-remover-cli
-
-A Node.js command-line tool for batch watermark removal. Powered by the same engine as the [online tool](https://notebooklmremover.org).
-
-```bash
-# Install
-npm install -g notebooklm-remover-cli
-
-# Remove watermark from a single image
-notebooklm-remover clean image input.png -o output.png
-
-# Batch process a folder
-notebooklm-remover clean image ./slides/ -o ./cleaned/
-
-# Remove watermark from video
-notebooklm-remover clean video input.mp4 -o output.mp4 --trim-ending
-```
-
-See [cli/README.md](cli/README.md) for full documentation.
 
 ## 📜 Scripts
 
